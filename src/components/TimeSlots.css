@@ -1,0 +1,41 @@
+.time-slots {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.time-slots h3 {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.slot {
+  padding: 8px 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.slot.free {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.slot.free:hover {
+  background: #c8e6c9;
+}
+
+.slot.booked {
+  background: #ffebee;
+  color: #c62828;
+  cursor: not-allowed;
+}

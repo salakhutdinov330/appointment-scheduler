@@ -1,0 +1,59 @@
+.booking-list {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.booking-list h3 {
+  margin-bottom: 10px;
+}
+
+.no-bookings {
+  color: #999;
+  font-style: italic;
+}
+
+.booking-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.booking-item:last-child {
+  border-bottom: none;
+}
+
+.booking-time {
+  font-weight: bold;
+  color: #007bff;
+  min-width: 45px;
+}
+
+.booking-name {
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.booking-purpose {
+  color: #666;
+  flex: 1;
+}
+
+.booking-contact {
+  color: #999;
+  font-size: 0.85em;
+}
+
+.booking-item button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
