@@ -12,3 +12,5 @@
 ```bash
 npm install
 npm run dev
+
+## исрпвление readme
